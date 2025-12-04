@@ -58,7 +58,7 @@ Now all your annotations are stored as strings and evaluated later. This is call
 
 When moving helper methods to classes, that do not need the object instance to work, e.g., ``find_spans`` you can use a so-called **decorator** to express that fact.
 
-Here is how ``find_spans`` will look like with the decorator:
+Here is how ``find_spans`` will look like with the decorator ``@staticmethod``:
 
 ```python
 @staticmethod
